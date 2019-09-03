@@ -18,5 +18,5 @@ func init() {
     beego.Router("/", &controllers.MainController{})
 	beego.Router("/addBlog", &controllers.MainController{},"get:AddBlog")
 	beego.Router("/ueditorDemo", &controllers.MainController{},"get:UEditorDemo")
-	
+	beego.Router("/richEdit", &controllers.MainController{},"get:SaveRichEdit")
 }
